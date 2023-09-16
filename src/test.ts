@@ -15,5 +15,5 @@ function makeEnemy(stranger: Stranger) {
   }
 }
 
-// const test = makeEnemy({ health: 5, power: 2 });
-// console.log(test);
+const test = makeEnemy({ health: 5, power: 2 });
+console.log(test);

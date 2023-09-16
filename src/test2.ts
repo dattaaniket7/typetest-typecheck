@@ -3,6 +3,6 @@ function asNumber(val: number | string): number {
   return typeof val === "string" ? Number(val) : val;
 }
 
-const test = asNumber("5");
+const test1 = asNumber("5");
 // const test = asNumber({ number: 5 });
-console.log(test);
+console.log(test1);
