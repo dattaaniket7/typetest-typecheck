@@ -9,10 +9,11 @@ interface Enemy extends NPC {
 type Stranger = Enemy | NPC;
 
 function makeEnemy(stranger: Stranger) {
+  //   if (stranger instanceof Ememy) {
   if ("power" in stranger) {
     return { health: stranger.health, power: stranger.power };
   }
 }
 
-const test = makeEnemy({ health: 5, power: 2 });
-console.log(test);
+// const test = makeEnemy({ health: 5, power: 2 });
+// console.log(test);
